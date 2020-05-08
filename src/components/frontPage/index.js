@@ -20,7 +20,7 @@ function index(props) {
           <a href="https://github.com/tomsza26" className="linkFront" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="iconFront" />
           </a>
-          <a href="https://www.linkedin.com/in/tomek-szablewski-513539199/" className="linkFront" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/tomasz-szablewski-513539199/" className="linkFront" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="iconFront" />
           </a>
         </div>
