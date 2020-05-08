@@ -17,6 +17,8 @@ import Skills from './components/skills/index';
 import ContactMe from './components/contactMe/index';
 import Projects from './components/projects/index';
 
+require('./utils/favicon.ico');
+
 function App() {
   window.onscroll = () => {
     if (document.getElementById('changeMind')) {

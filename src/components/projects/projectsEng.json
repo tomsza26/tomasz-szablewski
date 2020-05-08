@@ -10,6 +10,14 @@
     ]
   },
   {
+    "name": "Portfolio v2",
+    "image": "/portfolio3.gif",
+    "linkLive": "https://www.tomasz-szablewski.pl/",
+    "linkCode": "https://github.com/tomsza26/portfolio2",
+    "techUsed": [ "React.js", "HTML5", "SASS", "Webpack", "Babel.js" ],
+    "overwiew": [ "This site." ]
+  },
+  {
     "name": "Hotline Portfolio",
     "image": "/HotlinePortfolio.gif",
     "linkLive": "https://tomsza26.github.io/portfolio2/",
