@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+#canvCont {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(20, 20, 18, 1);
+
+  #canv {
+    height: 500px;
+    position: relative;
+    width: 50%;
+    border: 3px solid #fff;
+
+    #footCont {
+      position: absolute;
+      z-index: 2;
+      $shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
+      background-color: #a2a2a2;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+
+      input,
+      button,
+      textarea {
+        border: 2px solid rgba(0, 0, 0, 0.6);
+        background-image: none;
+        background-color: #dadad3;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 0.8;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      textarea {
+        min-height: 50px;
+        resize: vertical;
+        max-height: 300px;
+      }
+
+      button {
+        cursor: pointer;
+        font-weight: 500;
+      }
+
+      .feedback {
+        &-card {
+          border: 1px solid black;
+          max-width: 980px;
+          background-color: #fff;
+          margin: 0 auto;
+          box-shadow: $shadow;
+        }
+        &-header {
+          text-align: center;
+          padding: 8px;
+          font-size: 14px;
+          font-weight: 700;
+          border-bottom: 1px solid black;
+          line-height: 20px;
+          font-family: 'Roboto', sans-serif;
+          white-space: pre-wrap;
+          margin: 0;
+        }
+        &-body {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+
+          &__message {
+            margin-top: 10px;
+          }
+
+          button {
+            margin-top: 10px;
+            align-self: flex-end;
+          }
+        }
+      }
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #canvCont {
+    #canv {
+      height: 500px;
+      position: relative;
+      width: 90%;
+      border: 3px solid #fff;
+    }
+  }
+}

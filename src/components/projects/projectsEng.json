@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Personal Trainer Site",
+    "image": "/pakuj-z-tymkiem.gif",
+    "linkLive": "https://pakuj-z-tymkiem.pl/",
+    "linkCode": "https://github.com/tomsza26/pakuj-z-tymkiem",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "My first commercial project. Deployed on GitHub Pages with custom domain. I didn't need any back-end technology for this amount of data, which is stored in JSON file. Site is scalable on mobile devices. Design is atypical, eye-catching. E-mail form on site is supported by third-party site: Formspree."
+    ]
+  },
+  {
+    "name": "Hotline Portfolio",
+    "image": "/HotlinePortfolio.gif",
+    "linkLive": "https://tomsza26.github.io/portfolio2/",
+    "linkCode": "https://github.com/tomsza26/portfolio2",
+    "techUsed": [ "React.js", "HTML5", "SASS", "Howler.js" ],
+    "overwiew": [
+      "A bit unstable and high performance project, but an aesthetic experience is great. I'm planning to refactor whole code with help of Typescript, Webpack and Babel."
+    ]
+  },
+  {
+    "name": "Portfolio",
+    "image": "/portfolio.gif",
+    "linkLive": "https://tomsza26.github.io/portfolio/",
+    "linkCode": "https://github.com/tomsza26/portfolio",
+    "techUsed": [ "React.js", "HTML5", "SASS", "particles.js" ],
+    "overwiew": [ "My first portfolio site." ]
+  },
+  {
+    "name": "Calculator",
+    "image": "/fcc-Calculator.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Calculator/",
+    "linkCode": "https://github.com/tomsza26/fcc-Calculator",
+    "techUsed": [ "React.js", "HTML5", "SASS", "Math.js" ],
+    "overwiew": [
+      "It's a simple, responsive javascript calculator. I builded it with React.js and Math.js. In this challenge, I had the biggest problem with user input. I had to catch all possible inputs and adjust algorithm to work well with them."
+    ]
+  },
+  {
+    "name": "Quotes Machine",
+    "image": "/fcc-Quotes_Machine.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Quotes_Machine/",
+    "linkCode": "https://github.com/tomsza26/fcc-Quotes_Machine",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "Fully responsive quotes machine. I used quotes from one of my favorite games series: Call of Duty. Quotes are loaded from JSON file and displayed, one by one. Quotes can be shared on Twitter, thanks to QuickShare button."
+    ]
+  },
+  {
+    "name": "markdown-notes",
+    "image": "/markdown-notes.gif",
+    "linkLive": "https://tomsza26.github.io/markdown-notes/",
+    "linkCode": "https://github.com/tomsza26/markdown-notes",
+    "techUsed": [ "React.js", "Redux", "HTML5", "SASS" ],
+    "overwiew": [ "React-redux, first project." ]
+  },
+  {
+    "name": "flip Game",
+    "image": "/flipGame.gif",
+    "linkLive": "https://tomsza26.github.io/flipGame/",
+    "linkCode": "https://github.com/tomsza26/flipGame",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [ "Choose your difficulty level and play!" ]
+  },
+  {
+    "name": "Pomodoro-Clock",
+    "image": "/fcc-Pomodoro-Clock.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Pomodoro-Clock/",
+    "linkCode": "https://github.com/tomsza26/fcc-Pomodoro-Clock",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "A Clock which will help you to organise your working routine. This method is known all over the world. How it works? Firstly, you need to choose your break-time length and work-time length. Then you just need to start. You have four working sessions and four intervals. Last interval duration is 30 minutes. This whole process is called 'Pomodoro'. After last pause, you can start again."
+    ]
+  },
+  {
+    "name": "Drum-Machine",
+    "image": "/fcc-Drum_Machine.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Drum_Machine/",
+    "linkCode": "https://github.com/tomsza26/fcc-Drum_Machine",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "I did it as one of my ending projects at freeCodeCamp 'Front End Libraries' course. Builded on React.js, aplication plays sounds on key press, or on mouse press and displays sounds name. Volume of sounds can be changed. You can also disable aplication."
+    ]
+  }
+]

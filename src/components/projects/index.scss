@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400,700italic');
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+$color-blauet-clar: #00e5f8;
+$color-blauet-fosc: #0caca6;
+$color-rosa-clar: #ff4ba8;
+$color-rosa-fosc: #6d0b13;
+
+#pContainer {
+  padding: 40px 20px 20px 20px;
+
+  #pHeader {
+    color: $color-blauet-clar;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 7em;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 6px $color-rosa-clar;
+    animation: hotline-miami 3.5s ease-out infinite;
+    padding-left: 40px;
+  }
+
+  #pProjects {
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .projectBlock {
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 40%;
+
+      .projName {
+        font-family: Sarina;
+        font-size: 32px;
+        color: $color-blauet-clar;
+        text-shadow: 2px 2px $color-rosa-clar;
+      }
+
+      .imgCont {
+        display: flex;
+
+        .projDesc {
+          color: #fff;
+          padding: 10px 0 0 10px;
+          flex: 1 1;
+          font-family: Ruda;
+          font-size: 20px;
+          color: #fff;
+          max-width: 600px;
+        }
+
+        .projImg {
+          margin-top: 10px;
+          width: 400px;
+          flex: 0 1 400px;
+          border: 5px solid #fff;
+        }
+      }
+
+      .plinks {
+        margin-top: 5px;
+
+        .aLinks {
+          text-decoration: none;
+          color: #fff;
+          margin-left: 6px;
+          font-size: 18px;
+          transition: 0.4s;
+
+          .iconL {
+            transition: 0.4s;
+            size: 15px;
+          }
+
+          .codeN {
+            margin-left: 4px;
+            font-family: Ruda;
+          }
+        }
+
+        .aLinks:hover {
+          color: $color-blauet-clar;
+        }
+
+        .aLinks:hover > .iconL {
+          color: $color-blauet-clar;
+        }
+      }
+
+      .pTechUsed {
+        color: #fff;
+        padding-top: 10px;
+        max-width: 400px;
+
+        .pHeaderTech {
+          font-size: 20px;
+          font-weight: 700;
+          font-family: 'Press Start 2P', cursive;
+          padding-bottom: 5px;
+        }
+
+        .pTechItemsCont {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          .pTechItem {
+            padding-left: 10px;
+            font-size: 17px;
+            color: $color-rosa-clar;
+            text-shadow: 0px 0px 10px rgba(0, 229, 248, 1);
+          }
+        }
+      }
+
+      .forSmaller {
+        display: none;
+      }
+    }
+  }
+}
+
+@keyframes hotline-miami {
+  15% {
+    margin-left: 0;
+    text-shadow: none;
+  }
+
+  45%,
+  55% {
+    margin-left: 1.25em;
+    -webkit-text-stroke: 6px #fff;
+    text-shadow: -4px 0 #fff, -8px 0 #fff0f8, -12px 0 #ffe0f0, -16px 0 #ffd6eb, -20px 0 #ffc7e4, -24px 0 #ffbddf,
+      -28px 0 #ffb3da, -32px 0 #ffa3d3, -36px 0 #ff99ce, -40px 0 #ff8fc9, -44px 0 #ff85c4, -48px 0 #ff75bc,
+      -52px 0 #ff6bb7, -56px 0 #ff61b3, -60px 0 #ff57ae, -64px 0 #ff4ba8;
+  }
+}
+
+@keyframes hotline-miami2 {
+  15% {
+    margin-left: 0;
+    text-shadow: none;
+  }
+
+  45%,
+  55% {
+    margin-left: 1.25em;
+    -webkit-text-stroke: 3px #fff;
+    text-shadow: -4px 0 #fff, -8px 0 #fff0f8, -12px 0 #ffe0f0, -16px 0 #ffd6eb, -20px 0 #ffc7e4, -24px 0 #ffbddf,
+      -28px 0 #ffb3da, -32px 0 #ffa3d3, -36px 0 #ff99ce, -40px 0 #ff8fc9, -44px 0 #ff85c4, -48px 0 #ff75bc,
+      -52px 0 #ff6bb7, -56px 0 #ff61b3, -60px 0 #ff57ae, -64px 0 #ff4ba8;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  #pContainer {
+    #pProjects {
+      .projectBlock {
+        .imgCont {
+          .projImg {
+            width: 300px;
+            flex: 0 1 300px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  #pContainer {
+    #pProjects {
+      .projectBlock {
+        flex: 1 1 50%;
+
+        .imgCont {
+          .projImg {
+            width: 400px;
+            flex: 0 1 400px;
+          }
+          .projDesc {
+            flex: 1 1 60%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  #pContainer {
+    #pHeader {
+      font-size: 12vw;
+      -webkit-text-stroke: 3px $color-rosa-clar;
+      animation: hotline-miami2 3.5s ease-out infinite;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #pContainer {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    #pHeader {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #pProjects {
+      .projectBlock {
+        margin-bottom: 15px;
+
+        .imgCont {
+          .projImg {
+            flex: 1 1 100%;
+            width: 100%;
+            box-sizing: border-box;
+          }
+
+          .projDesc {
+            display: none;
+          }
+        }
+        .forSmaller {
+          padding-top: 10px;
+          display: flex;
+          color: #fff;
+          font-family: Ruda;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #pContainer {
+    #pProjects {
+      padding-left: 0;
+
+      .projectBlock {
+        margin: 30px 0 15px 0;
+        flex: 1 1 100%;
+
+        .projName {
+          font-size: 25px;
+          text-shadow: 2px 2px $color-rosa-clar;
+        }
+
+        .imgCont {
+          display: block;
+          .projImg {
+            flex: initial;
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto;
+          }
+        }
+
+        .forSmaller {
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}

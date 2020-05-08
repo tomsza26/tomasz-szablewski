@@ -1,0 +1,123 @@
+@import url('https://matiaslescano.com.ar/static/fonts/pixelicious.css');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+#sContainer {
+  padding: 20px;
+
+  #sHeader {
+    margin: 0 45px;
+    font-size: 7.5em;
+    font-family: 'Monoton', cursive;
+    color: #00f6f6;
+    text-shadow: 0px 0px 10px #ff33cc;
+    text-shadow: 0px 0px 15px #c4279d;
+    animation: textWaveMT 0.7s infinite linear;
+    word-break: break-word;
+  }
+
+  @keyframes textWaveMT {
+    0% {
+      text-shadow: 2px 2px 2px #d66c00, 4px 4px 4px #ff33cc;
+    }
+    25% {
+      text-shadow: -2px 2px 2px #d66c00, -4px 4px 4px #ff33cc;
+    }
+    50% {
+      text-shadow: -2px -2px 2px #d66c00, -4px -4px 4px #ff33cc;
+    }
+    75% {
+      text-shadow: 2px -2px 2px #d66c00, 4px -4px 4px #ff33cc;
+    }
+    100% {
+      text-shadow: 2px 2px 2px #d66c00, 4px 4px 4px #ff33cc;
+    }
+  }
+
+  .sAllPerks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 45px;
+
+    .sContents {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 45%;
+
+      .sContent {
+        display: flex;
+        flex-direction: column;
+
+        .sContItem {
+          font-family: Ruda;
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 20px;
+        }
+      }
+
+      .sHeaders {
+        font-family: Pixelicious, monospace;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: transparent;
+        filter: blur(0.3px);
+        animation: 2s ease-in-out infinite alternate pulsing;
+        margin-bottom: 8px;
+      }
+
+      @keyframes pulsing {
+        $color-a-1: #fff;
+        $color-a-2: #b3fffb;
+        $color-b-1: #43907e;
+        $color-b-2: #ca45d7;
+        $pos-1: -0.06em -0.06em;
+        $pos-2: -0.15em -0.15em;
+
+        0% {
+          text-shadow: rgba($color-a-1, 0.9) $pos-1, rgba($color-b-1, 0.9) 0 0;
+        }
+
+        33% {
+          text-shadow: rgba(mix($color-a-1, $color-a-2, 33%), 0.9) $pos-2,
+            rgba(mix($color-b-1, $color-b-2, 33%), 0.9) 0 0;
+        }
+
+        66% {
+          text-shadow: rgba(mix($color-a-1, $color-a-2, 66%), 0.9) $pos-1,
+            rgba(mix($color-b-1, $color-b-2, 33%), 0.9) 0 0;
+        }
+
+        100% {
+          text-shadow: rgba($color-a-2, 0.9) $pos-2, rgba($color-b-2, 0.9) 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #sContainer {
+    .sAllPerks {
+      .sContents {
+        flex: 1 0 55%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  #sContainer {
+    #sHeader {
+      margin: 0;
+      font-size: 20vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #sContainer {
+    .sAllPerks {
+      margin: 10px 0;
+    }
+  }
+}

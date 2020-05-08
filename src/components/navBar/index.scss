@@ -1,0 +1,79 @@
+.navTop {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  z-index: 999;
+  background: rgba(20, 20, 18, 0.6);
+
+  .CV,
+  nav > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 20px;
+    transition: 0.6s;
+  }
+
+  .CV:hover,
+  nav > a:hover {
+    opacity: 0.6;
+  }
+
+  nav {
+    #CV1,
+    #toggle,
+    #barsRes,
+    .toggle-container {
+      display: none;
+    }
+
+    .linkSel {
+      text-decoration: underline;
+      text-decoration-thickness: 3px;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navTop {
+    justify-content: flex-end;
+    padding-bottom: 5px;
+
+    .CV {
+      display: none;
+    }
+
+    nav {
+      .CVRES {
+        display: block;
+        padding-bottom: 5px;
+      }
+
+      #barsRes {
+        display: block;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-left: auto;
+        margin-bottom: 5px;
+      }
+    }
+
+    .topnav.responsive {
+      position: relative;
+    }
+
+    .topnav a {
+      display: none;
+    }
+
+    .topnav.responsive a,
+    .topnav.responsive #CV1 {
+      display: block;
+    }
+  }
+}

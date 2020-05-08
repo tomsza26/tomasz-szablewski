@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Strona Trenera Personalnego",
+    "image": "/pakuj-z-tymkiem.gif",
+    "linkLive": "https://pakuj-z-tymkiem.pl/",
+    "linkCode": "https://github.com/tomsza26/pakuj-z-tymkiem",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "Mój pierwszy komercyjny projekt. Wystawiony na GitHub Pages ze zmienioną domeną. Nie potrzebowałem żadnej technologi back-endowej dla takiej ilości danych, które są przechowywane w pliku JSON. Strona jest przyjazna dla urządzeń mobilnych. Styl jest nietypowy, przykuwający uwagę. Formularz E-mail na stronie jest stworzony przez zewnętrzne oprogramowanie: Formspree."
+    ]
+  },
+  {
+    "name": "Hotline Portfolio",
+    "image": "/HotlinePortfolio.gif",
+    "linkLive": "https://tomsza26.github.io/portfolio2/",
+    "linkCode": "https://github.com/tomsza26/portfolio2",
+    "techUsed": [ "React.js", "HTML5", "SASS", "Howler.js" ],
+    "overwiew": [
+      "Trochę niestabilny i niezoptymalizowany projekt, ale za to, doznanie estetyczne jest wspaniałe. Planuję przepisać cały kod z pomocą Typescript, Webpack i Babel."
+    ]
+  },
+  {
+    "name": "Portfolio",
+    "image": "/portfolio.gif",
+    "linkLive": "https://tomsza26.github.io/portfolio/",
+    "linkCode": "https://github.com/tomsza26/portfolio",
+    "techUsed": [ "React.js", "HTML5", "SASS", "particles.js" ],
+    "overwiew": [ "Moja pierwsza strona portfolio." ]
+  },
+  {
+    "name": "Kalkulator",
+    "image": "/fcc-Calculator.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Calculator/",
+    "linkCode": "https://github.com/tomsza26/fcc-Calculator",
+    "techUsed": [ "React.js", "HTML5", "SASS", "Math.js" ],
+    "overwiew": [
+      "Jest to prosty, responsywny kalkulator javascript. Zbudowałem go za pomocą React.js i Math.js. W tym wyzwaniu miałem największy problem z danymi wprowadzanmi przez użytkownika. Musiałem przewidzieć wszystkie możliwe dane wejściowe i dostosować algorytm, aby dobrze z nimi współpracował."
+    ]
+  },
+  {
+    "name": "Maszyna do cytatow",
+    "image": "/fcc-Quotes_Machine.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Quotes_Machine/",
+    "linkCode": "https://github.com/tomsza26/fcc-Quotes_Machine",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "W pełni responsywna maszyna do cytatów. Użyłem cytatów z jednej z moich ulubionych serii gier: Call of Duty. Cytaty są ładowane z pliku JSON i wyświetlane jeden po drugim. Cytaty można udostępniać na Twitterze, dzięki przyciskowi QuickShare."
+    ]
+  },
+  {
+    "name": "Dodaj notatatke",
+    "image": "/markdown-notes.gif",
+    "linkLive": "https://tomsza26.github.io/markdown-notes/",
+    "linkCode": "https://github.com/tomsza26/markdown-notes",
+    "techUsed": [ "React.js", "Redux", "HTML5", "SASS" ],
+    "overwiew": [ "React-redux, pierwszy projekt." ]
+  },
+  {
+    "name": "Gra Flip",
+    "image": "/flipGame.gif",
+    "linkLive": "https://tomsza26.github.io/flipGame/",
+    "linkCode": "https://github.com/tomsza26/flipGame",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [ "Wybierz swój poziom trudności i graj!" ]
+  },
+  {
+    "name": "Zegar-Pomodoro",
+    "image": "/fcc-Pomodoro-Clock.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Pomodoro-Clock/",
+    "linkCode": "https://github.com/tomsza26/fcc-Pomodoro-Clock",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "Aplikacja, która pomoże ci uporządkować rutynę pracy. Jest znana na całym świecie. Jak to działa? Po pierwsze, musisz wybrać długość przerwy i czas pracy, potem wystarczy zacząć. Masz cztery sesje robocze i cztery przerwy. Ostatni przedział czasu wynosi 30 minut. Cały ten proces nazywa się „Pomodoro”. Po ostatniej przerwie możesz zacząć od nowa."
+    ]
+  },
+  {
+    "name": "Drum-Machine",
+    "image": "/fcc-Drum_Machine.gif",
+    "linkLive": "https://tomsza26.github.io/fcc-Drum_Machine/",
+    "linkCode": "https://github.com/tomsza26/fcc-Drum_Machine",
+    "techUsed": [ "React.js", "HTML5", "SASS" ],
+    "overwiew": [
+      "Zrobiłem to jako jeden z moich końcowych projektów na kursie „Front End Libraries” freeCodeCamp. Zbudowana na React.js, aplikacja odtwarza dźwięki po naciśnięciu klawisza, lub myszy i wyświetla nazwę dźwięku. Głośność dźwięków można zmienić. Możesz także wyłączyć aplikację."
+    ]
+  }
+]
