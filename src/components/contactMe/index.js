@@ -63,7 +63,7 @@ function index(props) {
                     className="feedback-body__message"
                     placeholder={message}
                     minLength="10"
-                    maxLength="300"
+                    maxLength="500"
                   />
                   <button type="submit">{props.send}</button>
                 </form>
