@@ -4,9 +4,7 @@ import { connect } from 'react-redux';
 import './index.scss';
 
 function index(props) {
-  const {
-    skills, languages, libraries, learning, practices,
-  } = props;
+  const { skills, languages, libraries, learning, practices } = props;
 
   return (
     <div id="sContainer">
@@ -20,6 +18,7 @@ function index(props) {
             <div className="sContItem">HTML5</div>
             <div className="sContItem">CSS3</div>
             <div className="sContItem">JAVASCRIPT</div>
+            <div className="sContItem">typescript</div>
           </div>
         </div>
         <div id="sLearning" className="sContents">
@@ -29,7 +28,6 @@ function index(props) {
           <div className="sContent">
             <div className="sContItem">three.js</div>
             <div className="sContItem">python</div>
-            <div className="sContItem">typescript</div>
             <div className="sContItem">pixi.js</div>
           </div>
         </div>
@@ -47,6 +45,7 @@ function index(props) {
             <div className="sContItem">sass</div>
             <div className="sContItem">mongodb</div>
             <div className="sContItem">webpack</div>
+            <div className="sContItem">RESTFUL API</div>
             <div className="sContItem">web components</div>
             <div className="sContItem">npm</div>
           </div>
