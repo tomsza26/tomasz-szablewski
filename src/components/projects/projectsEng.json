@@ -2,11 +2,11 @@
   {
     "name": "Personal Trainer Site",
     "image": "/pakuj-z-tymkiem.gif",
-    "linkLive": "https://pakuj-z-tymkiem.pl/",
+    "linkLive": "https://www.pakuj-z-tymkiem.pl/",
     "linkCode": "https://github.com/tomsza26/pakuj-z-tymkiem",
-    "techUsed": ["React.js", "HTML5", "SASS"],
+    "techUsed": ["GatsbyJS", "Netlify CMS", "FormSpree"],
     "overwiew": [
-      "My first commercial project. Deployed on GitHub Pages with custom domain. I didn't need any back-end technology for this amount of data, which is stored in JSON file. Site is scalable on mobile devices. Design is atypical, eye-catching. E-mail form on site is supported by third-party site: Formspree."
+      "My first commercial project. Hosted on Netlify with a custom domain. The data is supported by Netlify CMS - the client after logging in to the panel, can edit, add data. The site is mobile-friendly. The style is unusual, eye-catching. The Email form on the site is supported by external software: FormSpree."
     ]
   },
   {

@@ -2,11 +2,11 @@
   {
     "name": "Strona Trenera Personalnego",
     "image": "/pakuj-z-tymkiem.gif",
-    "linkLive": "https://pakuj-z-tymkiem.pl/",
+    "linkLive": "https://www.pakuj-z-tymkiem.pl/",
     "linkCode": "https://github.com/tomsza26/pakuj-z-tymkiem",
-    "techUsed": ["React.js", "HTML5", "SASS"],
+    "techUsed": ["GatsbyJS", "Netlify CMS", "FormSpree"],
     "overwiew": [
-      "Mój pierwszy komercyjny projekt. Wystawiony na GitHub Pages ze zmienioną domeną. Nie potrzebowałem żadnej technologi back-endowej dla takiej ilości danych, które są przechowywane w pliku JSON. Strona jest przyjazna dla urządzeń mobilnych. Styl jest nietypowy, przykuwający uwagę. Formularz E-mail na stronie jest stworzony przez zewnętrzne oprogramowanie: Formspree."
+      "Mój pierwszy komercyjny projekt. Wystawiony na Netlify ze zmienioną domeną. Dane są obsługiwane przez Netlify CMS - klient po zalogowaniu do panelu, może edytować, dodawać dane. Strona jest przyjazna dla urządzeń mobilnych. Styl jest nietypowy, przykuwający uwagę. Formularz E-mail na stronie jest stworzony przez zewnętrzne oprogramowanie: FormSpree."
     ]
   },
   {
