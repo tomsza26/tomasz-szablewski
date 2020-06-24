@@ -6,7 +6,7 @@
     "linkCode": "https://github.com/tomsza26/pakuj-z-tymkiem",
     "techUsed": ["GatsbyJS", "Netlify CMS", "FormSpree"],
     "overwiew": [
-      "My first commercial project. Hosted on Netlify with a custom domain. The data is supported by Netlify CMS - the client after logging in to the panel, can edit, add data. The site is mobile-friendly. The style is unusual, eye-catching. The Email form on the site is supported by external software: FormSpree."
+      "My first commercial project. Hosted on Netlify with a custom domain. The data is supported by Netlify CMS - client after logging into the panel, can edit and add data. Site is mobile-friendly. Style is unusual, eye-catching. Email form on the site is supported by external software: FormSpree."
     ]
   },
   {
